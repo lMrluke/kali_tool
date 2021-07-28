@@ -1,0 +1,27 @@
+#爬取C类网段主机
+net 1.1.1.0/24
+
+#过滤国家 #中国CN 美国US 日本JP
+net 1.1.1.0/24 country:CN
+
+#中国北京主机
+country:CN city:beijing
+
+#open port
+country:CN city:beijing port:22
+
+#operating of system
+os "windows 10/11/xp"
+
+#hostname ,we can search the domain of company
+hostname baidu.com
+
+#server
+server: Apache
+
+还可以输入用户名和密码进行搜索
+还有返回状态码
+还有url路径
+和网站服务端口
+还有登录返回数据，和网页路径(cms)
+

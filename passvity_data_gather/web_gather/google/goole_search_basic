@@ -1,0 +1,39 @@
+both search combine
+A + B  
+
+or A or B
+A B
+
+only search
+"A B"
+
+intitle  #the container int the title
+intitle: beijing
+
+intext: content contain
+intext:电子
+example combine:
+北京 intitle:电子商务 intext:法人 intext:电话
+intitle:login | intitle:登录 intext:user intext:password
+
+site:domain search
+site:baidu.com
+
+inurl : search the content of url 
+inurl:coabak  #search the url have the keyword "coabak"
+example:
+北京 site:alibaba.com inurl:contact
+
+
+filetype:pdf
+sql python filetype:pdf
+python+filetype:pdf
+
+According to the country to search
+site:cn 
+site:us
+site:fr
+
+
+
+

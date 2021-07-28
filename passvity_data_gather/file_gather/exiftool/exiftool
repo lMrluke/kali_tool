@@ -1,0 +1,9 @@
+The tool exiftool can gather the bulk of information on picture pdf and doc
+
+if your provided the picture or file container the GPS information , the tool would extract it form the picture
+
+similarly it also extract the diverse genre and shooting time 
+
+useage:
+				exiftool picture/file
+

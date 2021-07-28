@@ -1,0 +1,7 @@
+#哇，这工具真垃圾
+dnsmap baidu.com -w wordlist_dns.txt -r save_result.txt -d delay_time -i ignore_ip
+
+-w 使用字典
+-r 保村结果
+-d 设置每次扫描延迟时间
+-i 忽略某个ip

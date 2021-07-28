@@ -1,0 +1,8 @@
+#使用自带的中字典扫描baidu域名的dns ipv4形式
+dnsdict6 -4 baidu.com -m 
+
+
+#指定一个字典
+dnsdict6 -4 baidu.com -m wordlist_dns.txt 
+
+

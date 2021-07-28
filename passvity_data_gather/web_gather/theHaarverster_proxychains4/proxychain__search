@@ -1,0 +1,20 @@
+#we use the proxychains4 to combine the theHarverster search engine
+to seek informaton of consequense that we want to know
+
+first : 
+we need to set the dynamic proxychains4 in the profile of proxychains4.conf 
+set the proxy http or sockets
+
+example:
+http 127.0.0.1 8889
+socket5 127.0.0.1 1089
+
+when it fulfill 
+use it :
+proxychains4 ping www.google.com
+proxychains4 ping www.youtube.com
+
+proxychains4 theHarverster -d baidu.com -l 200 -b google
+-d: appoint the domain you instant to search
+-l: limit the number of result to prevent the webserver turn off the connection
+-b: appoint the search of engine

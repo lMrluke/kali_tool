@@ -1,0 +1,10 @@
+#we can employ the engine the metagoofil to search the file and download the 
+in the domain
+
+useage:
+proxychains metagoofil -d baidu.com -t pdf -l 100 -o test -r 16
+-d : appoint the domain
+-t : appoint the file_type
+-l : limit the number of result
+-o : save to the appoint directory if not , creating at the current workspace
+-r : appoint the threats

@@ -1,0 +1,9 @@
+#使用dnsenum工具爆破dns 
+-f 指定字典
+--threads 指定线程
+dnsenum -f /root/桌面/dnspod-top2000-sub-domains.txt --threads 16 baidu.com
+
+
+-o 保持结果为xml格式文本
+dnsenum -f /root/桌面/dnspod-top2000-sub-domains.txt --threads 16 baidu.com -o dns.xml 
+

@@ -1,0 +1,5 @@
+rm -fr ~/.recon-ng && git clone https://github.com/lanmaster53/recon-ng-marketplace.git ~/.recon-ng
+
+Fristly you need to execute this command to load the modules so as to use it intargeted
+
+

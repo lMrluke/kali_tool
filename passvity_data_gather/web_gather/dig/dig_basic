@@ -1,0 +1,17 @@
+# dig 最基本的用法
+dig baidu.com [-t] ns/any/A/AAAA/cname
+dig @server qianlong.com
+# 用 dig 查看 zone 数据传输 ,此时的server是对方的ns记录服务器
+dig @server qianlong.com AXFR
+# 用 dig 查看 zone 数据的增量传输
+dig @server qianlong.com IXFR=N
+# 用 dig 查看反向解析
+dig -x 124.42.102.203 @server
+# 查找一个域的授权 dns 服务器
+dig   qianlong.com +nssearch
+# 从根服务器开始追踪一个域名的解析过程
+dig   qianlong.com +trace
+# 查看您使用的是哪个 F root dns server 
+dig +norec @F.ROOT-SERVERS.NET HOSTNAME.BIND CHAOS TXT
+# 查看 bind 的版本号
+dig @bind_dns_server CHAOS TXT version.bind 

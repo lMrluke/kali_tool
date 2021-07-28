@@ -1,0 +1,27 @@
+#paltform-google_search_hacking
+https://www.exploit-db.com/google-hacking-database
+
+example:
+				inurl:/admin/login.php
+				inurl:qq.txt
+				filetype:xls "username|password"
+				inurl:ftp "password" filetype:xls "username|password"
+				inurl:ftp "password" site:aliyun.com
+				site:a2.xxxx.com filetype:asp
+				site:a2.xxxx.com filetype:php
+				site:a2.xxxx.com filetype:aspx
+				site:a3.xxxx.com filetype:asp
+				intext:管理
+				filetype:mdb
+				inurl:file
+				site:xx.com filetype:txt 查找TXT文件 其他的依次内推
+				site:xx.com intext:管理
+				site:xx.com inurl:login
+				site:xx.com intitle:后台
+				查看服务器使用的程序
+				site:xx.com filetype:asp
+				site:xx.com filetype:php
+				site:xx.com filetype:jsp
+				查看上传漏洞：
+				site:xx.com inurl:file
+				site:xx.com inurl:load

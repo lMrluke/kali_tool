@@ -1,0 +1,10 @@
+
+netdiscover  can send the packet in the network enviroment , and sniff the packet , you can appoint your divice or filename to investigate the address network
+
+useage:
+				netdiscover -i eth0 -r 172.16.3.0/24
+
+				passive mode:
+								netdiscover -p 
+								-p : sniff the around packet that go by myself
+

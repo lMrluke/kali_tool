@@ -1,0 +1,7 @@
+
+# the arping tool is scan for the local network to discover the \
+actively computer for send the arp packet 
+
+arping 172.1.1.1
+arping 172.1.1.1 -d  # -d can verifying the arp deceive
+
