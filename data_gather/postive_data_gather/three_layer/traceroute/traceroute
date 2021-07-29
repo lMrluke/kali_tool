@@ -1,0 +1,7 @@
+#Tract the route between the your ip address and destion address
+#display every route in the possess of route
+
+usage:
+				traceroute www.baidu.com
+
+

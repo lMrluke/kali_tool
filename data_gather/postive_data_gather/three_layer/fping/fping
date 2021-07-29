@@ -1,0 +1,14 @@
+# fping is more powerful than ping 
+it quickly,accurate,and verbose
+
+your can employ it extermaly comfortable
+
+the more important point is that it can support the ranger investigate
+the only point that I think the tool ping cant surpass
+
+USEAGE:
+   fping -g 172.18.3.1 172.18.3.50 -c 10
+	 fping -g 172.18.3.0/24 -c 10
+
+	 -g : appoint the ranger you instant to investigate
+	 -c : appoint the number of packet

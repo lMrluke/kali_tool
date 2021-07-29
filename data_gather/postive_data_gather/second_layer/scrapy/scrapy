@@ -4,6 +4,9 @@ it is extremaly mightiness
 # most important we can use it to witer the script of python
 # taking Arp deveice, web attack, ddos attack....
 
+the sr1 can send your coustmize packet, you can set the timeout,in order to the computer wait never stoping, the verbose=0,expree the dont display the error log
+
+
 Simply useages : 
 				launch : scrapy
 				we can define a function as ARP()
@@ -13,7 +16,11 @@ Simply useages :
 								a = ARP()
 								a.pdst="172.16.3.1"
 								sr1(a,timeout=1,verbose=0)
+								
+						    answer = sr1(IP(dst=ip)/ICMP(),timeout=0.1,verbose=0)
 
-				the sr1 can send your coustmize packet, you can set the timeout,in order to the computer wait never stoping, the verbose=0,expree the dont display the error log
+						    answer = sr1(IP(dst=ip)/TCP(flags="A",dport=44444),timeout=1,verbose=0)
+						    
+								answer = sr1(IP(dst=ip)/UDP(dport=44444),timeout=1,verbose=0)
 
 				
