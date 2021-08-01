@@ -3,5 +3,12 @@
 
 usage:
 				traceroute www.baidu.com
+				traceroute -m 1 www.baidu.com
+				-m : we can appoint number to set the trace step number
+
+				traceroute -f 3  www.baidu.com
+				-f : appoint the step number that start from 
+
+
 
 

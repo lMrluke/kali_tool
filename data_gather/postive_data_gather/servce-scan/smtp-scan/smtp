@@ -1,0 +1,8 @@
+# SMTP is the mail protol that instan the mail delivery
+# we can scan the destion computer if open the 25 port 
+# if it active, we can send the viciousness mial to attack destion
+
+# one we can use the nc to connect the port 
+				nc -nv 172.18.3.1 25
+
+

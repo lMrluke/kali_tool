@@ -1,0 +1,10 @@
+
+
+nmap -sS 172.18.3.1 -p 22 --script=banner.nse
+-sS : use the syn scan
+
+
+nmap  172.18.3.1 -p 1-100 -sV
+-sV : probe the banner information from the determine sevice
+
+

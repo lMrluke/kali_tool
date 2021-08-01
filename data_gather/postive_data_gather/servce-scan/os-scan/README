@@ -1,0 +1,5 @@
+# under normal conditions, we can identity os info from the value of ttl
+# for example : windows generally is 65-128
+# the linux and unix usually is 1-64
+
+

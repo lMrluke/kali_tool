@@ -28,7 +28,7 @@ c = b.strip()
 
 def test2(i):
     pool = ThreadPoolExecutor(max_workers=20)
-    while(i < 50):
+    while(i < 255):
         ip = c +"."+str(i)
         pool.submit(test,(ip))
         i = i + 1

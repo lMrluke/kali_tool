@@ -1,0 +1,10 @@
+# dmitry is the tool used to information gather
+as the same time it also can gather the information that port service
+
+usage:
+				dmitry -p 1-100 172.18.3.1
+				-p : noly scan the port whether it open
+
+				dmitry -pb 1-100 172.18.3.1
+				-b : gather the banner data from the response information
+

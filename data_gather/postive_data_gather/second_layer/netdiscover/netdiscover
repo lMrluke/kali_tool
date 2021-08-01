@@ -8,3 +8,6 @@ useage:
 								netdiscover -p 
 								-p : sniff the around packet that go by myself
 
+								when we keep in the sniff mode, we can use the keyword "h" to list the help reference for us
+								the keyword "r" can assist us to list the arp request in local network
+

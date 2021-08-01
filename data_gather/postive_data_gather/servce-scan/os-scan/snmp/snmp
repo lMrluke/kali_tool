@@ -1,0 +1,25 @@
+# snmp is a protol that it use to the 161 port
+# we can investige the snmp that get more about destion computer
+
+usage:
+				1.
+				onesixtyone 172.18.3.1 public
+				public: is equal to the password
+
+				simaliry,we can use the directory to hydra the password
+				onesixtyone -c directory.txt -i 172.18.3.1 -w 100
+				-i : appoint the target hosts
+				-c : target password directory
+				-w : interval time 
+
+				2.
+				snmpwalk 172.18.3.1 -c pbulic -v 2c
+				-v : specifies the snmp version,usually 2c
+				-c : equal password
+
+				3.
+				snmpcheck -t 172.18.3.1 -c public -v 2
+				-c : equal to password
+				-t : specifies the target hosts
+
+

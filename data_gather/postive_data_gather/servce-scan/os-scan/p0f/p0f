@@ -1,0 +1,9 @@
+# p0f is a tool to sniff data packet from the local network
+# we can find the useful information that it sniff the packet
+
+usage:
+				p0f -i interface -p 
+				-i : appoint your interface
+				-p : promiscuous mode
+
+

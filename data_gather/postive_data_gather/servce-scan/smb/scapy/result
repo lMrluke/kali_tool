@@ -1,0 +1,120 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-08-01 14:36 HKT
+Initiating ARP Ping Scan at 14:36
+Scanning 15 hosts [1 port/host]
+Completed ARP Ping Scan at 14:36, 1.54s elapsed (15 total hosts)
+Initiating Parallel DNS resolution of 13 hosts. at 14:36
+Completed Parallel DNS resolution of 13 hosts. at 14:37, 13.02s elapsed
+Nmap scan report for 172.18.3.19 [host down]
+Nmap scan report for 172.18.3.20 [host down]
+Initiating SYN Stealth Scan at 14:37
+Scanning 13 hosts [2 ports/host]
+Discovered open port 139/tcp on 172.18.3.37
+Discovered open port 445/tcp on 172.18.3.37
+Completed SYN Stealth Scan at 14:37, 1.95s elapsed (26 total ports)
+Nmap scan report for 172.18.3.1
+Host is up (0.18s latency).
+
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 34:F7:16:2F:51:63 (Unknown)
+
+Nmap scan report for 172.18.3.16
+Host is up (0.045s latency).
+
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 9C:E8:2B:CF:7E:E5 (vivo Mobile Communication)
+
+Nmap scan report for 172.18.3.23
+Host is up (0.025s latency).
+
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 92:84:26:58:CE:78 (Unknown)
+
+Nmap scan report for 172.18.3.24
+Host is up (0.024s latency).
+
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: FA:F8:E2:A8:9C:17 (Unknown)
+
+Nmap scan report for 172.18.3.32
+Host is up (0.049s latency).
+
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 8C:29:37:D9:7A:F4 (Apple)
+
+Nmap scan report for 172.18.3.35
+Host is up (0.026s latency).
+
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 16:4F:CF:E7:72:7E (Unknown)
+
+Nmap scan report for 172.18.3.38
+Host is up (0.036s latency).
+
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 18:D7:17:46:69:D9 (Guangdong Oppo Mobile Telecommunications)
+
+Nmap scan report for 172.18.3.43
+Host is up (0.031s latency).
+
+PORT    STATE    SERVICE
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 80:AD:16:68:93:41 (Xiaomi Communications)
+
+Nmap scan report for 172.18.3.37
+Host is up (0.00068s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 3C:91:80:66:E1:3D (Liteon Technology)
+
+Nmap scan report for 172.18.3.45
+Host is up (0.089s latency).
+
+PORT    STATE    SERVICE
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: F8:A2:D6:B8:6E:35 (Liteon Technology)
+
+Nmap scan report for 172.18.3.51
+Host is up (0.074s latency).
+
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 0C:B5:27:CB:97:AE (Huawei Technologies)
+
+Nmap scan report for 172.18.3.55
+Host is up (0.074s latency).
+
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 12:0D:E1:E3:5E:90 (Unknown)
+
+Nmap scan report for 172.18.3.63
+Host is up (0.072s latency).
+
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 52:39:65:BD:EC:22 (Unknown)
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 15 IP addresses (13 hosts up) scanned in 16.72 seconds
+           Raw packets sent: 50 (1.928KB) | Rcvd: 35 (1.252KB)

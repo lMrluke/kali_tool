@@ -12,7 +12,7 @@ a = subprocess.check_output("ifconfig | grep eth0 -A1 | grep inet | awk '{print 
 co = 0
 def test(ip):
     global co
-    answer = sr1(IP(src=ip,dst="172.18.3.33")/TCP(flags="S",dport=22),timeout=1,verbose=0)
+    answer = sr1(IP(dst=ip)/TCP(flags="S"),timeout=1,verbose=0)
     if answer == None:
         #print(ip + " is not exist")
         pass

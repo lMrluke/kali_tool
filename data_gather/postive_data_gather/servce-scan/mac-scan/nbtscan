@@ -1,0 +1,4 @@
+# nbtscan this tool can scan the mac address from the local network
+
+usage : 
+				nbtscan -r 172.18.3.0/24
