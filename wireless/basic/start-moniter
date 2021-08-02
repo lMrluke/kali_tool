@@ -1,0 +1,19 @@
+# start mointer mode, we can capture the wireless packet at the difference channel
+
+two methods
+
+one :
+				iwconfig wlan0 up
+
+				open up it ,we need to appoint one channel that we want to capture
+				iwconfig wlan0mon channel 11
+
+two:
+				airmon-ng start wlan0
+
+				we can use the tool to scan the environment to find kind of channel
+				
+				airodump-ng wlan0mon
+
+
+
